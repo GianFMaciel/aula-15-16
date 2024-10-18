@@ -1,5 +1,7 @@
 let pokemons = [
-    
+    bulbasauro = "1",
+    charmander = "2",
+    squirtle = "3"
 
 ]
 let escolhaPokemon = prompt("Digite o número da opção 1-Bulbasauro. 2-Charmander. 3-Squirtle")
