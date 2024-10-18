@@ -1,7 +1,17 @@
 let generoFilme = prompt("Qual o genero do filme que iremos assistir?")
-let valorIngresso = prompt("Qual o preço desse ingresso?")
+let valorIngresso = Number(prompt("Qual o preço desse ingresso?"))
 
+let vamosNoCinema = (genero, valor) => {
+    if (genero === "fantasia" && valor < 15) {
+        console.log("Bom Filme")
 
+    } else {
+        console.log("Escolha outro filme")
+    }
+}
+
+vamosNoCinema(generoFilme)
+vamosNoCinema(valorIngresso)
 
 /*
 Considere a situação: você vai ao cinema com um amigo ou amiga, porém ele/ela só assistirá a um filme com você 
